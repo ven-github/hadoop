@@ -5,4 +5,15 @@
 	<artifactId>hadoop</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	<name>Hadoop</name>
+	<description>Hadoop umbrella project</description>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<modules>
+		<module>map-reduce</module>
+	</modules>	
 </project>
